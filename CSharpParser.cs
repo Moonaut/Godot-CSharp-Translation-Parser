@@ -1,7 +1,7 @@
-namespace AngelSwordSurvivors.Core;
-
 using System.Text.RegularExpressions;
 using Godot;
+
+namespace Blokoto.addons.Godot_CSharp_Translation_Parser;
 
 [Tool]
 public partial class CSharpParser : EditorTranslationParserPlugin

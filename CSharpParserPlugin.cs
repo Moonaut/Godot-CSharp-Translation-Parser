@@ -1,7 +1,7 @@
 #if TOOLS
 using Godot;
-using System;
-using AngelSwordSurvivors.Core;
+
+namespace Blokoto.addons.Godot_CSharp_Translation_Parser;
 
 [Tool]
 public partial class CSharpParserPlugin : EditorPlugin
