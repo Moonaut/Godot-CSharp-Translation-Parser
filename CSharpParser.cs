@@ -1,3 +1,4 @@
+#if TOOLS
 using System.Text.RegularExpressions;
 using Godot;
 
@@ -27,3 +28,4 @@ public partial class CSharpParser : EditorTranslationParserPlugin
         return ["cs"];
     }
 }
+#endif
