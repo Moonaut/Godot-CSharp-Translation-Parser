@@ -8,7 +8,7 @@ namespace Blokoto.addons.Godot_CSharp_Translation_Parser;
 public partial class CSharpParser : EditorTranslationParserPlugin
 {
     private string _pattern = @"(?!.*//).*Translate\(""(.*?)\""\)";
-    
+
     public override Godot.Collections.Array<string[]> _ParseFile(string path)
     {
         Godot.Collections.Array<string[]> strings = [];
